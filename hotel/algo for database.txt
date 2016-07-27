@@ -1,0 +1,68 @@
+first it will check that the room type which was asked by the customer is available or not.
+if available then it will do entry of the customers table  and room_given table.
+
+room number will be alloted by the algo followed by the:--
+room number= total_no_of_room - room_left +1;
+
+
+
+customers
+----------
+
+id	name	contact no	address		check in	check out	adults	children	flight	hiring_days
+1	ravi	8527552252	1859 jf		21 01 2016	21 01 2016	2		4			y			5
+
+room_given
+-----------
+
+room_no		room_type	id
+1			11			1
+21			12			1
+
+room_left
+----------
+
+room_type	room_left	prices	room_numbers(non existing in this table)
+11			20			5000	1-20
+12			20			7000	21-40
+13			20			9000	41-60
+14			20			11000	61-80
+15			20			15000	81-100
+16			20			17000	101-120
+17			20			20000	121-140
+21			20			10000	141-160	
+22			20			14000	161-180
+23			20			18000	181-200
+24			20			22000	201-220
+25			20			30000	221-240
+26			20			34000	241-260
+27			20			40000	261-280
+
+
+
+
+
+prices
+----------
+//premier rooms
+premier double 				20	
+preimer junior suite		20
+honeymoon suite				20
+premier executive suite		20
+premier prestige suite		20
+penthouse suite				20
+presidential suite 			20
+
+//standard rooms
+single rooms 				20
+double room 				20
+junior suite				20
+superior suite				20
+executive suite				20
+Family suite				20
+grande suite				20
+
+total_rooms=280
+
+room_type
+

@@ -1,0 +1,23 @@
+ body{
+
+    }
+    .content{
+        width:100%;
+        background-color: yellow;
+    }
+    .content2{
+        width:100%; 
+        background-color: white;
+    }
+    .border_remove{
+        border:0px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    gallery{
+        height: 200px;
+    }
+    .spacing{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
